@@ -1,0 +1,38 @@
+body {
+  backround: white;
+  font: normal normal normal 12px/18px "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
+  margin: 20px;
+}
+li {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
+li a {
+  display: block;
+  padding: 25px 10px 25px 60px;
+}
+li.twitter a {
+  background: transparent url(twitter-bw.png) no-repeat 0 50%;
+}
+li.twitter a:hover {
+  background: transparent url(twitter.png) no-repeat 0 50%;
+}
+li.github a {
+  background: transparent url(github-bw.png) no-repeat 0 50%;
+}
+li.github a:hover {
+  background: transparent url(github.png) no-repeat 0 50%;
+}
+li.cobwebs a {
+  background: transparent url(cobwebs-bw.png) no-repeat 0 50%;
+}
+li.cobwebs a:hover {
+  background: transparent url(cobwebs.png) no-repeat 0 50%;
+}
