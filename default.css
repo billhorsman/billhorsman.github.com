@@ -1,7 +1,22 @@
 body {
   backround: white;
-  font: normal normal normal 12px/18px "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
-  margin: 20px;
+  font: normal normal normal 14px/18px "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
+  margin: 40px 20px;
+  text-align: center;
+}
+div.page {
+  margin: 0 auto;
+  text-align: left;
+  width: 520px;
+}
+h1 {
+  color: #666;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+ul {
+  margin: 0 0 0 212px;
 }
 li {
   list-style: none;
@@ -13,6 +28,15 @@ a {
 }
 a:hover {
   color: blue;
+}
+img {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  float: left;
+  padding: 10px;
 }
 li a {
   display: block;
