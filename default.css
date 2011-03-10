@@ -30,6 +30,9 @@ a:hover {
   color: blue;
 }
 img {
+  border: none;
+}
+img.avatar {
   background: #f0f0f0;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -40,23 +43,17 @@ img {
 }
 li a {
   display: block;
-  padding: 25px 10px 25px 60px;
+  padding: 15px 10px 15px 10px;
 }
-li.twitter a {
-  background: transparent url(twitter-bw.png) no-repeat 0 50%;
+li a img {
+  opacity: 0.2;
+  padding: 0 20px 0 0;
+  vertical-align: middle;
+  transition: all 1s linear;
+  -o-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
 }
-li.twitter a:hover {
-  background: transparent url(twitter.png) no-repeat 0 50%;
-}
-li.github a {
-  background: transparent url(github-bw.png) no-repeat 0 50%;
-}
-li.github a:hover {
-  background: transparent url(github.png) no-repeat 0 50%;
-}
-li.cobwebs a {
-  background: transparent url(cobwebs-bw.png) no-repeat 0 50%;
-}
-li.cobwebs a:hover {
-  background: transparent url(cobwebs.png) no-repeat 0 50%;
+li a:hover img {
+  opacity: 1;
 }
