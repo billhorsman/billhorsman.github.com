@@ -13,6 +13,7 @@ h1 {
   color: #666;
   font-size: 60px;
   line-height: 60px;
+  text-align: center;
   text-transform: uppercase;
 }
 ul {
@@ -40,6 +41,14 @@ img.avatar {
   -moz-border-radius: 10px;
   float: left;
   padding: 10px;
+  transition: all 1s linear;
+  -o-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+}
+img.avatar:hover {
+  background: #ccf;
+  border: 1px solid #666;
 }
 li a {
   display: block;
